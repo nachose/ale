@@ -21,18 +21,19 @@ endfunction
 " First search on the path for 'mvnw' (mvnw.cmd on Windows), if nothing is found,
 " try the global command. Returns an empty string if cannot find the executable.
 function! ale#maven#FindExecutable(buffer) abort
-    let l:wrapper_cmd = has('unix') ? 'mvnw' : 'mvnw.cmd'
-    let l:wrapper_path = ale#path#FindNearestFile(a:buffer, l:wrapper_cmd)
+    " let l:wrapper_cmd = has('unix') ? 'mvnw' : 'mvnw.cmd'
+    " let l:wrapper_path = ale#path#FindNearestFile(a:buffer, l:wrapper_cmd)
 
-    if !empty(l:wrapper_path) && executable(l:wrapper_path)
-        return l:wrapper_path
-    endif
+    " if !empty(l:wrapper_path) && executable(l:wrapper_path)
+    "     return l:wrapper_path
+    " endif
 
-    if executable('mvn')
-        return 'mvn'
-    endif
+    " if executable('mvn')
+    "     return 'mvn'
+    " endif
 
-    return ''
+    " return ''
+    return 'mvn'
 endfunction
 
 " Given a buffer number, get a working directory and command to print the
