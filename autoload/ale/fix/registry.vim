@@ -39,7 +39,7 @@ let s:default_registry = {
 \   },
 \   'biome': {
 \       'function': 'ale#fixers#biome#Fix',
-\       'suggested_filetypes': ['javascript', 'typescript'],
+\       'suggested_filetypes': ['javascript', 'typescript', 'json', 'jsonc'],
 \       'description': 'Fix JavaScript and TypeScript using biome.',
 \   },
 \   'black': {
@@ -98,6 +98,12 @@ let s:default_registry = {
 \       'suggested_filetypes': ['dune'],
 \       'description': 'Fix dune files with dune format',
 \   },
+\   'erlang_mode': {
+\       'function': 'ale#fixers#erlang_mode#Fix',
+\       'suggested_filetypes': ['erlang'],
+\       'description': 'Indent with the Erlang mode for Emacs',
+\       'aliases': ['erlang-mode'],
+\   },
 \   'fecs': {
 \       'function': 'ale#fixers#fecs#Fix',
 \       'suggested_filetypes': ['javascript', 'css', 'html'],
@@ -137,7 +143,7 @@ let s:default_registry = {
 \   },
 \   'eslint': {
 \       'function': 'ale#fixers#eslint#Fix',
-\       'suggested_filetypes': ['javascript', 'typescript'],
+\       'suggested_filetypes': ['javascript', 'typescript', 'astro'],
 \       'description': 'Apply eslint --fix to a file.',
 \   },
 \   'mix_format': {
@@ -152,7 +158,7 @@ let s:default_registry = {
 \   },
 \   'prettier': {
 \       'function': 'ale#fixers#prettier#Fix',
-\       'suggested_filetypes': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'json5', 'graphql', 'markdown', 'vue', 'svelte', 'html', 'yaml', 'openapi', 'ruby'],
+\       'suggested_filetypes': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'json5', 'graphql', 'markdown', 'vue', 'svelte', 'html', 'yaml', 'openapi', 'ruby', 'astro'],
 \       'description': 'Apply prettier to a file.',
 \   },
 \   'prettier_eslint': {
@@ -665,6 +671,11 @@ let s:default_registry = {
 \       'function': 'ale#fixers#rubyfmt#Fix',
 \       'suggested_filetypes': ['ruby'],
 \       'description': 'A formatter for Ruby source code',
+\   },
+\   'cljfmt': {
+\       'function': 'ale#fixers#cljfmt#Fix',
+\       'suggested_filetypes': ['clojure'],
+\       'description': 'formatter and linter for clojure files',
 \   },
 \}
 

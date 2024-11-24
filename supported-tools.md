@@ -46,6 +46,9 @@ formatting.
 * ASM
   * [gcc](https://gcc.gnu.org)
   * [llvm-mc](https://llvm.org)
+* Astro
+  * [eslint](http://eslint.org/)
+  * [prettier](https://github.com/prettier/prettier)
 * AVRA
   * [avra](https://github.com/Ro5bert/avra)
 * Awk
@@ -118,6 +121,7 @@ formatting.
   * [foodcritic](http://www.foodcritic.io/) :floppy_disk:
 * Clojure
   * [clj-kondo](https://github.com/borkdude/clj-kondo)
+  * [cljfmt](https://github.com/weavejester/cljfmt)
   * [joker](https://github.com/candid82/joker)
 * CloudFormation
   * [cfn-python-lint](https://github.com/awslabs/cfn-python-lint)
@@ -197,6 +201,7 @@ formatting.
   * [SyntaxErl](https://github.com/ten0s/syntaxerl)
   * [dialyzer](http://erlang.org/doc/man/dialyzer.html) :floppy_disk:
   * [elvis](https://github.com/inaka/elvis) :floppy_disk:
+  * [erlang-mode](https://www.erlang.org/doc/apps/tools/erlang_mode_chapter.html) (The Erlang mode for Emacs)
   * [erlang_ls](https://github.com/erlang-ls/erlang_ls)
   * [erlc](http://erlang.org/doc/man/erlc.html)
   * [erlfmt](https://github.com/WhatsApp/erlfmt)
@@ -323,6 +328,7 @@ formatting.
   * [xo](https://github.com/sindresorhus/xo)
 * JSON
   * [VSCode JSON language server](https://github.com/hrsh7th/vscode-langservers-extracted)
+  * [biome](https://biomejs.dev/)
   * [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
   * [cspell](https://github.com/streetsidesoftware/cspell/tree/main/packages/cspell) :warning:
   * [dprint](https://dprint.dev)
@@ -335,6 +341,7 @@ formatting.
 * JSON5
   * [eslint](http://eslint.org/) :warning:
 * JSONC
+  * [biome](https://biomejs.dev/)
   * [eslint](http://eslint.org/) :warning:
 * Jsonnet
   * [jsonnet-lint](https://jsonnet.org/learning/tools.html)
@@ -581,6 +588,7 @@ formatting.
   * [solargraph](https://solargraph.org)
   * [sorbet](https://github.com/sorbet/sorbet)
   * [standardrb](https://github.com/testdouble/standard)
+  * [steep](https://github.com/soutaro/steep)
   * [syntax_tree](https://github.com/ruby-syntax-tree/syntax_tree)
 * Rust
   * [cargo](https://github.com/rust-lang/cargo) :floppy_disk: (see `:help ale-integration-rust` for configuration instructions)
@@ -720,7 +728,7 @@ formatting.
 * XML
   * [xmllint](http://xmlsoft.org/xmllint.html)
 * YAML
-  * [actionlint](https://github.com/rhysd/actionlint) :warning:
+  * [actionlint](https://github.com/rhysd/actionlint)
   * [circleci](https://circleci.com/docs/2.0/local-cli) :floppy_disk: :warning:
   * [gitlablint](https://github.com/elijah-roberts/gitlab-lint)
   * [prettier](https://github.com/prettier/prettier)
