@@ -32,6 +32,7 @@ formatting.
 * API Blueprint
   * [drafter](https://github.com/apiaryio/drafter)
 * APKBUILD
+  * [apkbuild-fixer](https://gitlab.alpinelinux.org/Leo/atools)
   * [apkbuild-lint](https://gitlab.alpinelinux.org/Leo/atools)
   * [secfixes-check](https://gitlab.alpinelinux.org/Leo/atools)
 * AsciiDoc
@@ -113,6 +114,8 @@ formatting.
   * [flawfinder](https://www.dwheeler.com/flawfinder/)
   * [gcc](https://gcc.gnu.org/)
   * [uncrustify](https://github.com/uncrustify/uncrustify)
+* C3
+  * [c3lsp](https://github.com/pherrymason/c3-lsp)
 * Cairo
   * [scarb](https://docs.swmansion.com/scarb/) :floppy_disk:
   * [starknet](https://starknet.io/docs)
@@ -335,6 +338,7 @@ formatting.
   * [eslint](http://eslint.org/) :warning:
   * [fixjson](https://github.com/rhysd/fixjson)
   * [jq](https://stedolan.github.io/jq/) :warning:
+  * [json.tool](https://docs.python.org/3/library/json.html#module-json.tool) :warning:
   * [jsonlint](https://github.com/zaach/jsonlint)
   * [prettier](https://github.com/prettier/prettier)
   * [spectral](https://github.com/stoplightio/spectral)
@@ -738,6 +742,7 @@ formatting.
   * [yamlfix](https://lyz-code.github.io/yamlfix)
   * [yamlfmt](https://github.com/google/yamlfmt)
   * [yamllint](https://yamllint.readthedocs.io/)
+  * [yq](https://github.com/mikefarah/yq)
 * YANG
   * [yang-lsp](https://github.com/theia-ide/yang-lsp)
 * Zeek
